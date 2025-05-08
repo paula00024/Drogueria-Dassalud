@@ -1,0 +1,181 @@
+*{
+
+    margin: 0;
+    padding: 0 ;
+}
+
+header{
+margin-top: 30px;
+    background-color: rgb(11, 133, 204);
+    width: 100%;
+    height: 200px;
+    border-radius: 100px 100px 100px 100px ;
+    opacity: 60%;
+    box-shadow: 40px 30px 40px 40px r gb(223, 204, 180);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.logo{
+background-color: cadetblue;
+width: 60px;
+height: 60px;
+margin-top: 30px;
+}
+
+.titulo{
+margin-top: 30px;
+}
+
+.textoTitulo{
+    color:white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px gray;
+}
+.boton{ 
+background-color: transparent;
+width: 60px;
+height: 60px;
+margin-top: 30px;
+}
+
+
+.botoningreso{
+   font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+}.botoningreso:hover{
+
+    color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: whitesmoke;
+}
+
+.prueba{
+   background-color:rgb(207, 203, 203);
+   width:100%;
+   height: 100px;
+   margin-top:6px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{display: flex;
+   justify-content:center ;
+ 
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black ;
+    font-size: 25px;
+   
+}
+
+nav a:hover{
+     text-decoration: none;
+    color:  rgb(58, 115, 236);
+    font-size:30px;
+    background-color: beige;
+    }
+
+.principal{
+
+    background-color:whitesmoke ;
+    width: 100%;
+    height: 280px;
+}    
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 40px ;
+}
+.nombre{
+    font-size: 30px;
+    color: black ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    
+    
+    .direccion{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+    }
+.Todos{
+    font-size: 30px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 90%;  
+    margin-right: 10px;                  
+            
+}
+.formulados{
+    font-size: 30px;
+    color: rgb(58, 115, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;  
+    margin-right:  100px;  
+
+
+}
+
+
+
+.Todos:hover{
+  color:rgb(58, 115, 236);
+  background-color: beige;
+
+}
+.nombre :hover{
+    color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
+
+}
+.direccion :hover{ color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
+
+}
+
+.correo:hover{
+color: rgb(58, 115, 236);
+font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
+}
+
+.telefono:hover{
+color: rgb(58, 115, 236);
+font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
+
+}
+
+.prueba2{
+    
+    width:100%;
+    height: 100px;
+    margin-top:6px;
+    font-family: Arial, Helvetica, sans-serif;
+ }

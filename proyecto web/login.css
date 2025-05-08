@@ -1,0 +1,93 @@
+.principallogin{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 320px ;
+    height:500px ;
+    box-shadow: 5px 5px 5px rgb(239, 202, 250);
+    border: 1px solid black;
+    border-radius: 50px;
+    border-bottom: 2px solid black;
+    margin-top: 150px;
+    background-color:rgb(90, 155, 240) ;
+}
+
+.cajaTexto{
+position: relative;
+top: 30px;
+left: 20px;
+width: 250px;
+height: 50px;
+background-color: whitesmoke;
+color: black;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+border-bottom: 2px solid black;
+margin-top: 50px;
+}
+.cajaTexto2{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    
+}
+
+.botonIngresar{
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 50px;
+   cursor: pointer;
+   left: 55px;
+}
+
+.botonIngresar:hover{
+    background-color: rgb(145, 163, 243);
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 50px;
+   cursor: pointer;
+   left: 55px;
+
+}
+
+.contraseña{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.imagendescarga{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 82px;
+}
+
+
+
