@@ -17,36 +17,65 @@ border: 1px solid antiquewhite;
 .contenidoTexto{
 width: 330px;    
 height: 400px ;
-border: 1px solid grey;
+border: 1px solid black;
 
 }
 
 .nombre{
 font-size: 30px;
-color: purple;
-font-family: Georgia, 'Times New Roman', Times, serif;
+color: black ;
+font-family: Arial, Helvetica, sans-serif;
 padding: 10px;
 margin-top: 40px;
 }
 
+
 .direccion{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
 }
 
 .telefono{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
 }
 
 .correo{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     
 }
+.nombre :hover{
+    color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
 
+}
+.direccion :hover{ color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
 
-
+}
+.correo:hover{
+    color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
+}
+    
+.telefono:hover{
+    color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
+    
+}

@@ -6,8 +6,7 @@
 
 header{
 margin-top: 30px;
-    background-color: rgb(223, 204, 180);
-
+    background-color: rgb(11, 133, 204);
     width: 100%;
     height: 200px;
     border-radius: 100px 100px 100px 100px ;
@@ -29,9 +28,9 @@ margin-top: 30px;
 }
 
 .textoTitulo{
-    color: purple;
+    color:white;
     font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
     text-shadow: 2px 2px 2px gray;
 }
@@ -44,26 +43,26 @@ margin-top: 30px;
 
 
 .botoningreso{
-
-    color: purple;
+   font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 20px;
     border: 1px solid white;
     padding: 10px; 
 }.botoningreso:hover{
 
-    color: purple;
+    color: rgb(58, 115, 236);
     font-size: 20px;
     border: 1px solid white;
     padding: 10px; 
-    background-color: beige;
+    background-color: whitesmoke;
 }
 
 .prueba{
-   background-color:bisque;
+   background-color:rgb(207, 203, 203);
    width:100%;
    height: 100px;
    margin-top:6px;
-
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{display: flex;
@@ -77,43 +76,56 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: purple;
+    color: black ;
     font-size: 25px;
    
 }
 
 nav a:hover{
      text-decoration: none;
-    color: black;
+    color:  rgb(58, 115, 236);
     font-size:30px;
     background-color: beige;
     }
 
 .principal{
 
-    background-color: rgb(223, 204, 180) ;
+    background-color:whitesmoke ;
     width: 100%;
     height: 280px;
 }    
 
 footer{
-    background-color: darkgrey;
+    background-color: white;
     width: 100%;
     height: 40px ;
 }
-
+.nombre{
+    font-size: 30px;
+    color: black ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    }
+    
+    
+    .direccion{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+    }
 .Todos{
     font-size: 30px;
-    color: purple;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
     width: 90%;  
     margin-right: 10px;                  
             
 }
 .formulados{
     font-size: 30px;
-    color: purple;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(58, 115, 236);
+    font-family: Arial, Helvetica, sans-serif;
     width: 90%;  
     margin-right:  100px;  
 
@@ -123,13 +135,28 @@ footer{
 
 
 .Todos:hover{
-  color: purple;
+  color:rgb(58, 115, 236);
   background-color: beige;
+
+}
+.nombre :hover{
+    color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
+
+}
+.direccion :hover{ color: rgb(58, 115, 236);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px; 
+    background-color: beige;
 
 }
 
 .correo:hover{
-color: purple;
+color: rgb(58, 115, 236);
 font-size: 20px;
     border: 1px solid white;
     padding: 10px; 
@@ -137,10 +164,18 @@ font-size: 20px;
 }
 
 .telefono:hover{
-color: purple;
+color: rgb(58, 115, 236);
 font-size: 20px;
     border: 1px solid white;
     padding: 10px; 
     background-color: beige;
 
 }
+
+.prueba2{
+    
+    width:100%;
+    height: 100px;
+    margin-top:6px;
+    font-family: Arial, Helvetica, sans-serif;
+ }

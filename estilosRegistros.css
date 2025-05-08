@@ -9,7 +9,7 @@ align-items: center;
 
 
 .registro{
-    background: linear-gradient(70deg, white, bisque); 
+    background: linear-gradient(70deg, white, rgb(135, 171, 247)); 
     border: 1px solid black;
     border-radius: 50px;
     width: 320px ;
@@ -20,22 +20,22 @@ align-items: center;
 }
 @keyframes color{ 
     0%{
-        background: linear-gradient(70deg,white, bisque); 
+        background: linear-gradient(70deg,white, rgb(135, 171, 247)); 
         position: absolute;
         left:800px;
     }
     25%{
-        background:linear-gradient(70deg, white, bisque);
+        background:linear-gradient(70deg, white, rgb(135, 171, 247));
         position: absolute;
         left:600px;
     } 
     50%{
-        background:linear-gradient(70deg,white, bisque);
+        background:linear-gradient(70deg,white, rgb(135, 171, 247));
         position: absolute;
         left: 1200px;
     }
     100%{
-        background:linear-gradient(70deg,white, bisque);
+        background:linear-gradient(70deg,white, rgb(135, 171, 247));
         position:absolute;
         left: 900px;
     }
@@ -54,7 +54,7 @@ top: 30px;
 left: 20px;
 width: 250px;
 height: 50px;
-background-color: rgb(221, 197, 153);
+background-color: rgb(231, 230, 227);
 color: black;
 border-top: none;
 border-left: none;
@@ -69,7 +69,7 @@ border-bottom: 2px solid black;
     left: 20px;
     width: 250px;
     height: 50px;
-    background-color: rgb(221, 197, 153);
+    background-color: rgb(231, 230, 227);
     border-top: none;
     border-left: none;
     border-right: none;
@@ -83,7 +83,7 @@ border-bottom: 2px solid black;
         left: 20px;
         width: 250px;
         height: 50px;
-        background-color: rgb(221, 197, 153);
+        background-color: rgb(231, 230, 227);
         border-top: none;
         border-left: none;
         border-right: none;
@@ -97,7 +97,7 @@ border-bottom: 2px solid black;
             left: 20px;
             width: 250px;
             height: 50px;
-            background-color: rgb(221, 197, 153);
+            background-color: rgb(231, 230, 227);
             border-top: none;
             border-left: none;
             border-right: none;
@@ -106,13 +106,13 @@ border-bottom: 2px solid black;
             }
     
         .botonRegistro{
-            background-color: blanchedalmond;
+            background-color: whitesmoke;
             padding: 10px;
             width: 210px;
             height: 50px;
             position: relative;
             top: 30px;
-           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-family: Arial, Helvetica, sans-serif;
            border-radius: 50px;
            cursor: pointer;
            left: 55px;
@@ -127,7 +127,7 @@ border-bottom: 2px solid black;
             height: 50px;
             position: relative;
             top: 30px;
-           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-family: Arial, Helvetica, sans-serif;
            border-radius: 50px;
            cursor: pointer;
            left: 55px;
